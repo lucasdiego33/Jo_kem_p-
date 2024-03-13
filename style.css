@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image:linear-gradient(to right, red, rgb(185, 211, 185), rgb(197, 166, 62),rgba(23, 27, 148, 0.852));
+    
+}
+
+.container {
+    margin-top: 15%;
+    border: 2px solid ;
+    width: 330px;
+    height: 370px;
+    border-radius: 20px;
+    background-image:linear-gradient(to right, red, rgb(185, 211, 185), rgb(197, 166, 62),rgba(23, 27, 148, 0.852));
+    border: none;
+   
+}
+h1 {
+    color: black;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 10px;
+     
+}
+
+button:hover {
+    opacity: 0.7;
+    background-color: rgba(0, 255, 255, 0.388);
+    
+}
+
+#pedra {
+    width: 50px;
+    height: 60px;
+    border-radius: 8px;
+    font-size: 25px;
+    border: none;
+    margin-top: 28px;
+    cursor: pointer;
+     
+}
+
+#papel {
+    width: 50px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+    font-size: 28px;
+    border: none;
+    cursor: pointer;
+
+}
+#tesoura {
+    width: 50px;
+    height: 60px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    font-size: 28px;
+    border: none;
+    cursor: pointer;
+}
+
+
+p {
+     font-size: 28px;
+     color: black;
+     margin-top: 20px;
+     font-weight:  bold;
+    
+    
+}
+
+span {
+    color: white;
+    margin-left: 2px;
+    
+}

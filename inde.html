@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jokenpô</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1> >>jo_ken_pô<<</h1>
+
+
+        <button  id="pedra" onclick="play('pedra')">&#128074;</button>
+        <button  id="papel" onclick="play('papel')">&#128400;</button>
+        <button  id="tesoura" onclick="play('tesoura')">&#9996;</button>
+
+        <p class="result"></p>
+
+        <p>Pontuação DevClub: <span  id="play-humano">0</span></p>
+        <p>Pontuação  Alexa: <span id="play-maquina">0</span></p>
+        
+    
+    </div>
+    
+</body>
+<script src="./script.js"></script>
+</html>
